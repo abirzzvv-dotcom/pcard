@@ -1,51 +1,50 @@
 [
   {
-    "id": "level",
-    "name": "New Arrival",
-    "description": "Just reached a new level! Fresh to the scene and already making waves.",
-    "emoji": "🆙",
-    "color": "#43b581"
+    "id": "meadow",
+    "name": "April Fools — Meadow",
+    "description": "Awarded for participating in Discord's April Fools 2024 'Meadow' event. A rare collector's badge.",
+    "iconUrl": "https://cdn.discordapp.com/badge-icons/f82e36cfe61f04d8de44c7ed27cd9a23.png",
+    "fallbackEmoji": "🌸",
+    "color": "#57f287"
   },
   {
     "id": "nitro",
     "name": "Discord Nitro",
-    "description": "This user is a proud subscriber of Discord Nitro, boosting the experience for everyone.",
-    "emoji": "💎",
+    "description": "This user is a proud subscriber of Discord Nitro — enjoying boosted file uploads, animated avatars, and more.",
+    "iconUrl": "https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png",
+    "fallbackEmoji": "💎",
     "color": "#f47fff"
   },
   {
     "id": "booster",
     "name": "Server Booster",
-    "description": "This user has been boosting a Discord server since it was new.",
-    "emoji": "🚀",
+    "description": "This user has been boosting a Discord server, helping unlock server perks for the whole community.",
+    "iconUrl": "https://cdn.discordapp.com/badge-icons/508e60caf26ef62fee40c8017fbe70a2.png",
+    "fallbackEmoji": "🚀",
     "color": "#ff73fa"
   },
   {
     "id": "active-dev",
     "name": "Active Developer",
-    "description": "This user is actively building apps with the Discord API and shipping cool stuff.",
-    "emoji": "⚙️",
+    "description": "This user is actively building and shipping applications with the Discord API.",
+    "iconUrl": "https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png",
+    "fallbackEmoji": "⚙️",
     "color": "#5865f2"
-  },
-  {
-    "id": "hypesquad",
-    "name": "HypeSquad",
-    "description": "A HypeSquad Events member who represents Discord at community events.",
-    "emoji": "🎉",
-    "color": "#ffa630"
   },
   {
     "id": "brilliance",
     "name": "HypeSquad Brilliance",
-    "description": "Member of the Brilliance house — bold, energetic, and always blazing a trail.",
-    "emoji": "✨",
-    "color": "#e91e8c"
+    "description": "Member of HypeSquad House Brilliance — bold, competitive, and always raising the bar.",
+    "iconUrl": "https://cdn.discordapp.com/badge-icons/bf01d1073931f921909045f3a39fd264.png",
+    "fallbackEmoji": "✨",
+    "color": "#00d4ff"
   },
   {
     "id": "quest",
     "name": "Quest Complete",
-    "description": "Completed a special Discord Quest and unlocked this rare collector's badge.",
-    "emoji": "🏆",
+    "description": "Completed a special Discord Quest and unlocked this rare collector's trophy badge.",
+    "iconUrl": "https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png",
+    "fallbackEmoji": "🏆",
     "color": "#f9a825"
   }
 ]

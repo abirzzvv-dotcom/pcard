@@ -4,16 +4,19 @@ export interface Profile {
   username: string;
   handle: string;
   initials: string;
+  pfp?: string;
   tagline: string;
   bio: string;
-  status: string;
+  description?: string;
+  status: "online" | "idle" | "dnd" | "offline";
 }
 
 export interface Badge {
   id: string;
   name: string;
   description: string;
-  emoji: string;
+  iconUrl: string;
+  fallbackEmoji: string;
   color: string;
 }
 
@@ -22,6 +25,10 @@ export interface Project {
   name: string;
   description: string;
   githubUrl: string;
+  language?: string;
+  languageColor?: string;
+  stars?: number;
+  forks?: number;
   tags: string[];
 }
 

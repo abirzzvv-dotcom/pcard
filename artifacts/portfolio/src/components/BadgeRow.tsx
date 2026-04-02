@@ -28,21 +28,57 @@ function BadgePopup({ badge, onClose, anchorRef }: BadgePopupProps) {
   return (
     <div
       ref={popupRef}
-      className="glass-popup animate-pop-in absolute bottom-full mb-3 left-1/2 -translate-x-1/2 z-50 w-52 rounded-xl p-3 shadow-2xl"
-      style={{ boxShadow: `0 8px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.06)` }}
+      className="glass-popup animate-pop-in absolute bottom-full mb-2 left-1/2 -translate-x-1/2 z-50 w-56 rounded-2xl p-4 shadow-2xl"
+      style={{ boxShadow: `0 12px 48px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)` }}
     >
-      <div className="flex items-center gap-2 mb-2">
-        <span className="text-2xl leading-none">{badge.emoji}</span>
-        <span className="font-semibold text-sm text-white">{badge.name}</span>
+      {/* Badge icon large */}
+      <div className="flex items-center gap-3 mb-3">
+        <div
+          className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden shrink-0"
+          style={{ background: `${badge.color}18`, border: `1px solid ${badge.color}33` }}
+        >
+          <BadgeIcon badge={badge} size={28} />
+        </div>
+        <div>
+          <div className="font-semibold text-sm text-white leading-tight">{badge.name}</div>
+          <div className="text-xs mt-0.5" style={{ color: badge.color }}>Badge</div>
+        </div>
       </div>
       <p className="text-xs leading-relaxed" style={{ color: "#b5bac1" }}>
         {badge.description}
       </p>
       <div
-        className="mt-2 h-0.5 rounded-full opacity-40"
+        className="mt-3 h-px rounded-full opacity-20"
         style={{ background: badge.color }}
       />
     </div>
+  );
+}
+
+interface BadgeIconProps {
+  badge: Badge;
+  size?: number;
+}
+
+function BadgeIcon({ badge, size = 22 }: BadgeIconProps) {
+  const [failed, setFailed] = useState(false);
+
+  if (!badge.iconUrl || failed) {
+    return (
+      <span style={{ fontSize: size * 0.8, lineHeight: 1 }}>{badge.fallbackEmoji}</span>
+    );
+  }
+
+  return (
+    <img
+      src={badge.iconUrl}
+      alt={badge.name}
+      width={size}
+      height={size}
+      style={{ objectFit: "contain", imageRendering: "auto" }}
+      onError={() => setFailed(true)}
+      draggable={false}
+    />
   );
 }
 
@@ -66,19 +102,18 @@ function BadgeItem({ badge }: BadgeItemProps) {
       <button
         ref={btnRef}
         onClick={handleClick}
-        className={`badge-btn text-2xl w-10 h-10 flex items-center justify-center rounded-full focus:outline-none select-none cursor-pointer ${
+        className={`badge-btn w-9 h-9 flex items-center justify-center rounded-xl focus:outline-none select-none cursor-pointer transition-all duration-150 ${
           shaking ? "animate-badge-shake" : ""
         }`}
         style={{
-          background: open
-            ? `${badge.color}22`
-            : "rgba(255,255,255,0.04)",
-          border: `1px solid ${open ? badge.color + "55" : "rgba(255,255,255,0.06)"}`,
+          background: open ? `${badge.color}22` : "rgba(255,255,255,0.05)",
+          border: `1px solid ${open ? badge.color + "44" : "rgba(255,255,255,0.07)"}`,
+          boxShadow: open ? `0 0 12px ${badge.color}33` : "none",
         }}
         title={badge.name}
         aria-label={badge.name}
       >
-        {badge.emoji}
+        <BadgeIcon badge={badge} size={22} />
       </button>
       {open && (
         <BadgePopup badge={badge} onClose={() => setOpen(false)} anchorRef={btnRef} />
@@ -94,7 +129,7 @@ interface BadgeRowProps {
 export default function BadgeRow({ badges }: BadgeRowProps) {
   if (!badges.length) return null;
   return (
-    <div className="flex flex-wrap gap-2 mt-1">
+    <div className="flex flex-wrap gap-1.5 mt-1">
       {badges.map((b) => (
         <BadgeItem key={b.id} badge={b} />
       ))}

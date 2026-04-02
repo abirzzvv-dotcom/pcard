@@ -2,7 +2,9 @@
   "username": "Alex Builder",
   "handle": "alexbuilder",
   "initials": "AB",
+  "pfp": "",
   "tagline": "developer · builder of stuff",
-  "bio": "Crafting clean code and beautiful interfaces. Open source enthusiast, coffee-powered.",
+  "bio": "Crafting clean code and beautiful interfaces.",
+  "description": "Full-stack developer passionate about open source, developer tooling, and shipping things that matter. Currently exploring Rust and WebAssembly in my spare time. Always open to collabs.",
   "status": "online"
 }
