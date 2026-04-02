@@ -1,5 +1,21 @@
 # Workspace
 
+## Artifacts
+
+### `artifacts/portfolio` (`@workspace/portfolio`)
+
+Discord-inspired personal portfolio website. A static React + Vite app with:
+- Discord-style profile card UI (gradient banner, avatar with initials, glassmorphism name box)
+- 7 clickable badges with shake animation and glassmorphic popup (loaded from `public/data/badges.json`)
+- "Projects" and "Ongoing" tabs with 2-column responsive grid
+- Project cards with hover glow/lift effects, tags, progress bars (ongoing), and GitHub links
+- All data loaded from JSON files in `public/data/`: `profile.json`, `badges.json`, `projects.json`, `ongoing.json`
+- Fade-up entrance animations, Inter font, Discord blurple (#5865f2) accents
+- Preview at `/`
+
+---
+
+
 ## Overview
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "level",
+    "name": "New Arrival",
+    "description": "Just reached a new level! Fresh to the scene and already making waves.",
+    "emoji": "🆙",
+    "color": "#43b581"
+  },
+  {
+    "id": "nitro",
+    "name": "Discord Nitro",
+    "description": "This user is a proud subscriber of Discord Nitro, boosting the experience for everyone.",
+    "emoji": "💎",
+    "color": "#f47fff"
+  },
+  {
+    "id": "booster",
+    "name": "Server Booster",
+    "description": "This user has been boosting a Discord server since it was new.",
+    "emoji": "🚀",
+    "color": "#ff73fa"
+  },
+  {
+    "id": "active-dev",
+    "name": "Active Developer",
+    "description": "This user is actively building apps with the Discord API and shipping cool stuff.",
+    "emoji": "⚙️",
+    "color": "#5865f2"
+  },
+  {
+    "id": "hypesquad",
+    "name": "HypeSquad",
+    "description": "A HypeSquad Events member who represents Discord at community events.",
+    "emoji": "🎉",
+    "color": "#ffa630"
+  },
+  {
+    "id": "brilliance",
+    "name": "HypeSquad Brilliance",
+    "description": "Member of the Brilliance house — bold, energetic, and always blazing a trail.",
+    "emoji": "✨",
+    "color": "#e91e8c"
+  },
+  {
+    "id": "quest",
+    "name": "Quest Complete",
+    "description": "Completed a special Discord Quest and unlocked this rare collector's badge.",
+    "emoji": "🏆",
+    "color": "#f9a825"
+  }
+]

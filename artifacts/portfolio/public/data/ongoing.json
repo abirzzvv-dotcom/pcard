@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "vaultpass",
+    "description": "End-to-end encrypted password manager with zero-knowledge architecture and browser extension integration.",
+    "githubUrl": "https://github.com/alexbuilder/vaultpass",
+    "tags": ["Rust", "WebCrypto", "Extension"],
+    "progress": 60
+  },
+  {
+    "id": 2,
+    "name": "noiseboard",
+    "description": "Ambient sound mixer for focus and sleep. Blend rain, forest, café, and lo-fi tracks with spatial audio controls.",
+    "githubUrl": "https://github.com/alexbuilder/noiseboard",
+    "tags": ["Web Audio API", "React", "Tailwind"],
+    "progress": 35
+  },
+  {
+    "id": 3,
+    "name": "patchwork-cli",
+    "description": "CLI tool for managing dotfiles across machines. Syncs config profiles, handles conflicts, and supports templates.",
+    "githubUrl": "https://github.com/alexbuilder/patchwork-cli",
+    "tags": ["Go", "CLI", "TOML"],
+    "progress": 75
+  }
+]

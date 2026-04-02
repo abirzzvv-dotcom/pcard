@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "codeflow",
+    "description": "A collaborative real-time code editor with syntax highlighting, live cursors, and session sharing via URL.",
+    "githubUrl": "https://github.com/alexbuilder/codeflow",
+    "tags": ["TypeScript", "WebSocket", "React"]
+  },
+  {
+    "id": 2,
+    "name": "inkdrop-api",
+    "description": "RESTful note-taking API with markdown support, tagging, and full-text search. Powers a family of client apps.",
+    "githubUrl": "https://github.com/alexbuilder/inkdrop-api",
+    "tags": ["Node.js", "PostgreSQL", "Zod"]
+  },
+  {
+    "id": 3,
+    "name": "shademap",
+    "description": "Interactive map visualization tool for plotting geospatial heatmaps from CSV data with color gradient themes.",
+    "githubUrl": "https://github.com/alexbuilder/shademap",
+    "tags": ["D3.js", "GeoJSON", "Vite"]
+  },
+  {
+    "id": 4,
+    "name": "devboard",
+    "description": "Personal developer dashboard that aggregates GitHub activity, open PRs, CI status, and upcoming milestones.",
+    "githubUrl": "https://github.com/alexbuilder/devboard",
+    "tags": ["React", "GitHub API", "Recharts"]
+  }
+]
