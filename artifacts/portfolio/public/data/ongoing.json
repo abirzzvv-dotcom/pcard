@@ -6,8 +6,6 @@
     "githubUrl": "https://github.com/alexbuilder/vaultpass",
     "language": "Rust",
     "languageColor": "#dea584",
-    "stars": 58,
-    "forks": 4,
     "tags": ["Rust", "WebCrypto", "Extension"],
     "progress": 60
   },
@@ -18,8 +16,6 @@
     "githubUrl": "https://github.com/alexbuilder/noiseboard",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 23,
-    "forks": 2,
     "tags": ["Web Audio API", "React", "Tailwind"],
     "progress": 35
   },
@@ -30,8 +26,6 @@
     "githubUrl": "https://github.com/alexbuilder/patchwork-cli",
     "language": "Go",
     "languageColor": "#00add8",
-    "stars": 102,
-    "forks": 11,
     "tags": ["Go", "CLI", "TOML"],
     "progress": 75
   }

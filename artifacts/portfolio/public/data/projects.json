@@ -6,8 +6,6 @@
     "githubUrl": "https://github.com/alexbuilder/codeflow",
     "language": "TypeScript",
     "languageColor": "#3178c6",
-    "stars": 312,
-    "forks": 28,
     "tags": ["TypeScript", "WebSocket", "React"]
   },
   {
@@ -17,8 +15,6 @@
     "githubUrl": "https://github.com/alexbuilder/inkdrop-api",
     "language": "Node.js",
     "languageColor": "#68a063",
-    "stars": 187,
-    "forks": 14,
     "tags": ["Node.js", "PostgreSQL", "Zod"]
   },
   {
@@ -28,19 +24,15 @@
     "githubUrl": "https://github.com/alexbuilder/shademap",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 95,
-    "forks": 9,
     "tags": ["D3.js", "GeoJSON", "Vite"]
   },
   {
     "id": 4,
     "name": "devboard",
-    "description": "Personal developer dashboard that aggregates GitHub activity, open PRs, CI status, and upcoming milestones.",
+    "description": "Personal developer dashboard aggregating GitHub activity, open PRs, CI status, and upcoming milestones.",
     "githubUrl": "https://github.com/alexbuilder/devboard",
     "language": "TypeScript",
     "languageColor": "#3178c6",
-    "stars": 441,
-    "forks": 37,
     "tags": ["React", "GitHub API", "Recharts"]
   }
 ]

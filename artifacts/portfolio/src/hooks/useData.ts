@@ -15,8 +15,6 @@ export interface Badge {
   id: string;
   name: string;
   description: string;
-  iconUrl: string;
-  fallbackEmoji: string;
   color: string;
 }
 
@@ -27,8 +25,6 @@ export interface Project {
   githubUrl: string;
   language?: string;
   languageColor?: string;
-  stars?: number;
-  forks?: number;
   tags: string[];
 }
 
@@ -36,46 +32,38 @@ export interface OngoingProject extends Project {
   progress: number;
 }
 
-const BASE = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL;
 
-function buildUrl(path: string) {
-  return `${BASE}${path}`.replace(/\/\//g, "/");
+function url(path: string) {
+  return `${base}${path}`.replace(/\/\//g, "/");
 }
 
-async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(buildUrl(path));
-  if (!res.ok) throw new Error(`Failed to fetch ${path}`);
+async function get<T>(path: string): Promise<T> {
+  const res = await fetch(url(path));
+  if (!res.ok) throw new Error(`${path} failed`);
   return res.json();
 }
 
 export function useProfile() {
   const [data, setData] = useState<Profile | null>(null);
-  useEffect(() => {
-    fetchJson<Profile>("data/profile.json").then(setData).catch(console.error);
-  }, []);
+  useEffect(() => { get<Profile>("data/profile.json").then(setData).catch(console.error); }, []);
   return data;
 }
 
 export function useBadges() {
   const [data, setData] = useState<Badge[]>([]);
-  useEffect(() => {
-    fetchJson<Badge[]>("data/badges.json").then(setData).catch(console.error);
-  }, []);
+  useEffect(() => { get<Badge[]>("data/badges.json").then(setData).catch(console.error); }, []);
   return data;
 }
 
 export function useProjects() {
   const [data, setData] = useState<Project[]>([]);
-  useEffect(() => {
-    fetchJson<Project[]>("data/projects.json").then(setData).catch(console.error);
-  }, []);
+  useEffect(() => { get<Project[]>("data/projects.json").then(setData).catch(console.error); }, []);
   return data;
 }
 
 export function useOngoing() {
   const [data, setData] = useState<OngoingProject[]>([]);
-  useEffect(() => {
-    fetchJson<OngoingProject[]>("data/ongoing.json").then(setData).catch(console.error);
-  }, []);
+  useEffect(() => { get<OngoingProject[]>("data/ongoing.json").then(setData).catch(console.error); }, []);
   return data;
 }
