@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "server info selfbot",
+    "description": "basically no fucking permissions, BUT you can see stuff like role permissions, hierarchy and stuff.",
+    "githubUrl": "https://www.google.com/search?q=not+done+yet+brochacho&oq=not+done+yet+brochacho&",
+    "language": "Node JS",
+    "languageColor": "#68a063",
+    "tags": ["Selfbot", "File", "NodeJS", "Server"],
+    "progress": 60
+  }
+]

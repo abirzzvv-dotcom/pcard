@@ -1,0 +1,26 @@
+[
+  {
+    "id": "meadow",
+    "name": "Last Meadow Online",
+    "description": "Level 67 Reached",
+    "color": "#23a55a"
+  },
+  {
+    "id": "nitro",
+    "name": "Discord Nitro",
+    "description": "Subscriber since Apr 1, grand 2026🤞",
+    "color": "#5662f6"
+  },
+  {
+    "id": "booster",
+    "name": "Server Booster",
+    "description": "Server boosting since Apr 1st, 2026",
+    "color": "#ff73fa"
+  },
+  {
+    "id": "quest",
+    "name": "Quest Completed",
+    "description": "Completed a Quest",
+    "color": "#f9a825"
+  }
+]
