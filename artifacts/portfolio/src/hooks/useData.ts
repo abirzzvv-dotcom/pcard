@@ -5,6 +5,7 @@ export interface Profile {
   handle: string;
   initials: string;
   pfp?: string;
+  banner?: string;
   tagline: string;
   bio: string;
   description?: string;

@@ -1,38 +1,11 @@
 [
   {
     "id": 1,
-    "name": "codeflow",
-    "description": "A collaborative real-time code editor with syntax highlighting, live cursors, and session sharing via URL.",
-    "githubUrl": "https://github.com/alexbuilder/codeflow",
-    "language": "TypeScript",
-    "languageColor": "#3178c6",
-    "tags": ["TypeScript", "WebSocket", "React"]
-  },
-  {
-    "id": 2,
-    "name": "inkdrop-api",
-    "description": "RESTful note-taking API with markdown support, tagging, and full-text search. Powers a family of client apps.",
-    "githubUrl": "https://github.com/alexbuilder/inkdrop-api",
-    "language": "Node.js",
+    "name": "music selfbot",
+    "description": "you need NOTHING, and i mean NOTHING to run this, except for your token EXCEPT its not finished yet is it...",
+    "githubUrl": "https://www.google.com/search?q=i+wonder+what+curiousity+brings+you+here&oq=i+wonder+what+curiousity+brings+you+here",
+    "language": "Node JS",
     "languageColor": "#68a063",
-    "tags": ["Node.js", "PostgreSQL", "Zod"]
-  },
-  {
-    "id": 3,
-    "name": "shademap",
-    "description": "Interactive map visualization tool for plotting geospatial heatmaps from CSV data with color gradient themes.",
-    "githubUrl": "https://github.com/alexbuilder/shademap",
-    "language": "JavaScript",
-    "languageColor": "#f1e05a",
-    "tags": ["D3.js", "GeoJSON", "Vite"]
-  },
-  {
-    "id": 4,
-    "name": "devboard",
-    "description": "Personal developer dashboard aggregating GitHub activity, open PRs, CI status, and upcoming milestones.",
-    "githubUrl": "https://github.com/alexbuilder/devboard",
-    "language": "TypeScript",
-    "languageColor": "#3178c6",
-    "tags": ["React", "GitHub API", "Recharts"]
+    "tags": ["NodeJS", "Selfbot", "Discord", "Music"]
   }
 ]

@@ -45,8 +45,8 @@ export default function ProfileCard() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center p-8 rounded-2xl" style={{ background: "#1e1f22", color: "#4e5058" }}>
-          <div className="text-4xl mb-3">⚙️</div>
-          <p className="text-sm">Loading profile...</p>
+          <div className="text-4xl mb-3"></div>
+          <p className="text-sm">loading, be patient bromosapien</p>
         </div>
       </div>
     );
@@ -62,9 +62,16 @@ export default function ProfileCard() {
       >
         <div
           className="relative h-36 sm:h-44 rounded-t-2xl overflow-hidden"
-          style={{ background: "linear-gradient(135deg, #0e0326 0%, #1e0844 18%, #3b0f72 35%, #6b1c7a 52%, #9e2464 68%, #c43050 82%, #d44a2e 100%)" }}
+          style={{ background: "#000000" }}
         >
-          <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at 20% 60%, rgba(150,100,255,0.35) 0%, transparent 55%), radial-gradient(ellipse at 75% 25%, rgba(240,80,150,0.25) 0%, transparent 50%)" }} />
+          {profile.banner && (
+            <img
+              src={profile.banner}
+              alt="banner"
+              className="absolute inset-0 w-full h-full object-cover"
+              style={{ display: "block" }}
+            />
+          )}
         </div>
 
         <div className="px-5 sm:px-7 relative">

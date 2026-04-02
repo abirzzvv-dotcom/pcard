@@ -1,32 +1,12 @@
 [
   {
     "id": 1,
-    "name": "vaultpass",
-    "description": "End-to-end encrypted password manager with zero-knowledge architecture and browser extension integration.",
-    "githubUrl": "https://github.com/alexbuilder/vaultpass",
-    "language": "Rust",
-    "languageColor": "#dea584",
-    "tags": ["Rust", "WebCrypto", "Extension"],
+    "name": "server info selfbot",
+    "description": "basically no fucking permissions, BUT you can see stuff like role permissions, hierarchy and stuff.",
+    "githubUrl": "https://www.google.com/search?q=not+done+yet+brochacho&oq=not+done+yet+brochacho&",
+    "language": "Node JS",
+    "languageColor": "#68a063",
+    "tags": ["Selfbot", "File", "NodeJS", "Server"],
     "progress": 60
-  },
-  {
-    "id": 2,
-    "name": "noiseboard",
-    "description": "Ambient sound mixer for focus and sleep. Blend rain, forest, café, and lo-fi tracks with spatial audio controls.",
-    "githubUrl": "https://github.com/alexbuilder/noiseboard",
-    "language": "JavaScript",
-    "languageColor": "#f1e05a",
-    "tags": ["Web Audio API", "React", "Tailwind"],
-    "progress": 35
-  },
-  {
-    "id": 3,
-    "name": "patchwork-cli",
-    "description": "CLI tool for managing dotfiles across machines. Syncs config profiles, handles conflicts, and supports templates.",
-    "githubUrl": "https://github.com/alexbuilder/patchwork-cli",
-    "language": "Go",
-    "languageColor": "#00add8",
-    "tags": ["Go", "CLI", "TOML"],
-    "progress": 75
   }
 ]
