@@ -1,15 +1,15 @@
 [
   {
     "id": "meadow",
-    "name": "April Fools 2024",
-    "description": "Participated in the Discord Meadow April Fools 2024 event.",
+    "name": "Last Meadow Online",
+    "description": "Participated in the Discord Last Meadow Online April Fools 2026 event.",
     "color": "#23a55a"
   },
   {
     "id": "nitro",
     "name": "Discord Nitro",
     "description": "Subscriber since Jan 5, 2022",
-    "color": "#8b68e8"
+    "color": "#5662f6"
   },
   {
     "id": "booster",
@@ -21,13 +21,13 @@
     "id": "active-dev",
     "name": "Active Developer",
     "description": "Active Developer — set the active developer badge on your account! You qualify once you have a published command in the last 30 days.",
-    "color": "#23a55a"
+    "color": "#2ea967"
   },
   {
     "id": "brilliance",
     "name": "HypeSquad Brilliance",
     "description": "HypeSquad Brilliance — competitive and driven, a force not to be reckoned with.",
-    "color": "#e91e8c"
+    "color": "#f47b67"
   },
   {
     "id": "quest",
