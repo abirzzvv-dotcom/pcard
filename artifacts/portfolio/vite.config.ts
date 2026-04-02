@@ -29,8 +29,8 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, "../../docs"),
-    emptyOutDir: true,
+    outDir: path.resolve(import.meta.dirname, "../../"),
+    emptyOutDir: false,
   },
   server: {
     port,
