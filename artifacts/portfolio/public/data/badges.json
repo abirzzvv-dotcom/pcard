@@ -1,38 +1,38 @@
 [
   {
     "id": "meadow",
-    "name": "April Fools — Meadow",
-    "description": "Awarded for participating in Discord's April Fools 2024 Meadow event. One of the rarest badges around.",
-    "color": "#57f287"
+    "name": "April Fools 2024",
+    "description": "Participated in the Discord Meadow April Fools 2024 event.",
+    "color": "#23a55a"
   },
   {
     "id": "nitro",
     "name": "Discord Nitro",
-    "description": "Subscriber of Discord Nitro. Enjoys animated avatars, boosted uploads, and custom emojis everywhere.",
-    "color": "#f47fff"
+    "description": "Subscriber since Jan 5, 2022",
+    "color": "#8b68e8"
   },
   {
     "id": "booster",
     "name": "Server Booster",
-    "description": "Boosting a Discord server and helping unlock server perks for the whole community.",
+    "description": "Member has been boosting a server since Mar 12, 2023.",
     "color": "#ff73fa"
   },
   {
     "id": "active-dev",
     "name": "Active Developer",
-    "description": "Actively building and shipping apps with the Discord API.",
+    "description": "Active Developer — set the active developer badge on your account! You qualify once you have a published command in the last 30 days.",
     "color": "#23a55a"
   },
   {
     "id": "brilliance",
     "name": "HypeSquad Brilliance",
-    "description": "Member of HypeSquad House Brilliance — competitive, bold, and always raising the bar.",
+    "description": "HypeSquad Brilliance — competitive and driven, a force not to be reckoned with.",
     "color": "#e91e8c"
   },
   {
     "id": "quest",
-    "name": "Quest Complete",
-    "description": "Completed a special Discord Quest and earned this collector's trophy badge.",
+    "name": "Quest Completed",
+    "description": "Completed a Discord Quest.",
     "color": "#f9a825"
   }
 ]
